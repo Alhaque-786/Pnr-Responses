@@ -1,0 +1,413 @@
+{
+    "fares": [
+      {
+        "totals": {
+          "taxes": "304.00",
+          "total": "500.00",
+          "subtotal": "196.00",
+          "currencyCode": "SAR"
+        },
+        "recordId": "1",
+        "airlineCode": "EY",
+        "taxBreakdown": [
+          {
+            "taxCode": "YQ",
+            "taxAmount": {
+              "amount": "181.00",
+              "currencyCode": "SAR"
+            }
+          },
+          {
+            "taxCode": "K3",
+            "taxAmount": {
+              "amount": "19.00",
+              "currencyCode": "SAR"
+            }
+          },
+          {
+            "taxCode": "IN",
+            "taxAmount": {
+              "amount": "12.00",
+              "currencyCode": "SAR"
+            }
+          },
+          {
+            "taxCode": "YM",
+            "taxAmount": {
+              "amount": "32.00",
+              "currencyCode": "SAR"
+            }
+          },
+          {
+            "taxCode": "ZR",
+            "taxAmount": {
+              "amount": "6.00",
+              "currencyCode": "SAR"
+            }
+          },
+          {
+            "taxCode": "P2",
+            "taxAmount": {
+              "amount": "54.00",
+              "currencyCode": "SAR"
+            }
+          }
+        ],
+        "recordTypeCode": "PQ",
+        "recordTypeName": "Price Quote",
+        "creationDetails": {
+          "userHomePcc": "2D7K",
+          "userWorkPcc": "2D7K",
+          "creationDate": "2024-01-12",
+          "creationTime": "07:42",
+          "creationUserSine": "AWT"
+        },
+        "pricingTypeCode": "S",
+        "pricingTypeName": "System",
+        "fareConstruction": [
+          {
+            "baseRate": {
+              "amount": "51.83",
+              "currencyCode": "NUC"
+            },
+            "fareBasisCode": "ELN00H6R",
+            "isCurrentItinerary": true
+          }
+        ],
+        "isNegotiatedFare": false,
+        "pricingStatusCode": "A",
+        "pricingStatusName": "Active",
+        "pricedTravelerType": "ADT",
+        "fareCalculationLine": "BOM EY X/AUH EY DXB51.83NUC51.83END ROE83.329447",
+        "requestedTravelerType": "ADT"
+      }
+    ],
+    "endDate": "2024-02-07",
+    "flights": [
+      {
+        "meals": [
+          {
+            "code": "M",
+            "description": "Meal"
+          }
+        ],
+        "seats": [
+          {
+            "number": "22A",
+            "statusCode": "KK",
+            "statusName": "Confirmed",
+            "characteristics": [
+              "N",
+              "CH",
+              "W"
+            ]
+          }
+        ],
+        "itemId": "19",
+        "sourceType": "ATPCO",
+        "airlineCode": "EY",
+        "airlineName": "ETIHAD AIRWAYS",
+        "arrivalDate": "2024-02-07",
+        "arrivalGate": "3",
+        "arrivalTime": "18:45:00",
+        "bookingClass": "E",
+        "flightNumber": 207,
+        "cabinTypeCode": "Y",
+        "cabinTypeName": "ECONOMY",
+        "departureDate": "2024-02-07",
+        "departureGate": "2",
+        "departureTime": "17:05:00",
+        "numberOfSeats": 1,
+        "toAirportCode": "AUH",
+        "confirmationId": "QAD3A9",
+        "distanceInMiles": 1242,
+        "fromAirportCode": "BOM",
+        "travelerIndices": [
+          1
+        ],
+        "aircraftTypeCode": "32A",
+        "aircraftTypeName": "AIRBUS INDUSTRIE A320 SHARKLETS",
+        "flightStatusCode": "HK",
+        "flightStatusName": "Confirmed",
+        "durationInMinutes": 205,
+        "arrivalTerminalName": "TERMINAL 3",
+        "operatingAirlineCode": "EY",
+        "operatingAirlineName": "ETIHAD AIRWAYS",
+        "departureTerminalName": "TERMINAL 2 DOM AND INTL",
+        "operatingFlightNumber": 207
+      },
+      {
+        "meals": [
+          {
+            "code": "N",
+            "description": "No meal service"
+          }
+        ],
+        "itemId": "20",
+        "sourceType": "ATPCO",
+        "airlineCode": "EY",
+        "airlineName": "ETIHAD AIRWAYS",
+        "arrivalDate": "2024-02-07",
+        "arrivalTime": "22:00:00",
+        "bookingClass": "E",
+        "flightNumber": 5424,
+        "cabinTypeCode": "Y",
+        "cabinTypeName": "ECONOMY",
+        "departureDate": "2024-02-07",
+        "departureGate": "1",
+        "departureTime": "20:00:00",
+        "numberOfSeats": 1,
+        "toAirportCode": "XNB",
+        "confirmationId": "QAD3A9",
+        "distanceInMiles": 95,
+        "fromAirportCode": "AUH",
+        "travelerIndices": [
+          1
+        ],
+        "aircraftTypeCode": "BUS",
+        "aircraftTypeName": "BUS",
+        "flightStatusCode": "HK",
+        "flightStatusName": "Confirmed",
+        "durationInMinutes": 120,
+        "operatingAirlineCode": "EY",
+        "operatingAirlineName": "ETIHAD AIRWAYS",
+        "departureTerminalName": "TERMINAL 1",
+        "operatingFlightNumber": 5424
+      }
+    ],
+    "remarks": [
+      {
+        "text": " THIS IS A TEST PNR",
+        "type": "GENERAL"
+      },
+      {
+        "text": "*VI4XXXXXXXXXXX1136¥07/24",
+        "type": "FORM_OF_PAYMENT"
+      }
+    ],
+    "request": {
+      "confirmationId": "RKYKIR"
+    },
+    "journeys": [
+      {
+        "departureDate": "2024-02-07",
+        "departureTime": "17:05",
+        "lastAirportCode": "XNB",
+        "numberOfFlights": 2,
+        "firstAirportCode": "BOM"
+      }
+    ],
+    "payments": {
+      "flightTotals": [
+        {
+          "taxes": "304.00",
+          "total": "500.00",
+          "subtotal": "196.00",
+          "currencyCode": "SAR"
+        }
+      ],
+      "formsOfPayment": [
+        {
+          "type": "PAYMENTCARD",
+          "cardNumber": "4XXXXXXXXXXX1136",
+          "expiryDate": "2024-07",
+          "cardTypeCode": "VI"
+        }
+      ]
+    },
+    "fareRules": [
+      {
+        "isChangeable": true,
+        "isRefundable": true,
+        "passengerCode": "ADT",
+        "refundPenalties": [
+          {
+            "penalty": {
+              "amount": "765.0",
+              "currencyCode": "SAR"
+            },
+            "applicability": "BEFORE_DEPARTURE",
+            "conditionsApply": false
+          },
+          {
+            "penalty": {
+              "amount": "765.0",
+              "currencyCode": "SAR"
+            },
+            "applicability": "AFTER_DEPARTURE",
+            "conditionsApply": false
+          }
+        ],
+        "exchangePenalties": [
+          {
+            "penalty": {
+              "amount": "591.0",
+              "currencyCode": "SAR"
+            },
+            "applicability": "BEFORE_DEPARTURE",
+            "conditionsApply": false
+          },
+          {
+            "penalty": {
+              "amount": "591.0",
+              "currencyCode": "SAR"
+            },
+            "applicability": "AFTER_DEPARTURE",
+            "conditionsApply": false
+          }
+        ],
+        "originAirportCode": "BOM",
+        "owningAirlineCode": "EY",
+        "destinationAirportCode": "XNB"
+      }
+    ],
+    "startDate": "2024-02-07",
+    "timestamp": "2024-01-12T14:29:01",
+    "travelers": [
+      {
+        "type": "ADULT",
+        "surname": "CARTER",
+        "givenName": "JOHN",
+        "ancillaries": [
+          {
+            "source": "ATPCO",
+            "totals": {
+              "taxes": "2.00",
+              "total": "29.00",
+              "subtotal": "27.00",
+              "currencyCode": "SAR"
+            },
+            "flights": [
+              {
+                "itemId": "19"
+              }
+            ],
+            "subcode": "0B5",
+            "statusCode": "HD",
+            "statusName": "Confirmed with pending payment",
+            "airlineCode": "EY",
+            "isRefundable": false,
+            "numberOfItems": 1,
+            "commercialName": "REAR ZONE WINDOW SEAT",
+            "isCommissionable": false,
+            "reasonForIssuanceCode": "A",
+            "reasonForIssuanceName": "AIR_TRANSPORTATION"
+          }
+        ],
+        "passengerCode": "ADT"
+      }
+    ],
+    "fareOffers": [
+      {
+        "flights": [
+          {
+            "itemId": "19"
+          },
+          {
+            "itemId": "20"
+          }
+        ],
+        "travelerIndices": [
+          1
+        ],
+        "cabinBaggageAllowance": {
+          "maximumPieces": 1,
+          "totalWeightInKilograms": 7
+        },
+        "checkedBaggageAllowance": {
+          "totalWeightInKilograms": 0
+        }
+      }
+    ],
+    "isTicketed": false,
+    "allSegments": [
+      {
+        "id": "19",
+        "text": "207",
+        "type": "FLIGHT",
+        "endDate": "2024-02-07",
+        "endTime": "18:45:00",
+        "startDate": "2024-02-07",
+        "startTime": "17:05:00",
+        "vendorCode": "EY",
+        "endLocationCode": "AUH",
+        "startLocationCode": "BOM"
+      },
+      {
+        "id": "20",
+        "text": "5424",
+        "type": "FLIGHT",
+        "endDate": "2024-02-07",
+        "endTime": "22:00:00",
+        "startDate": "2024-02-07",
+        "startTime": "20:00:00",
+        "vendorCode": "EY",
+        "endLocationCode": "XNB",
+        "startLocationCode": "AUH"
+      }
+    ],
+    "contactInfo": {
+      "emails": [
+        "JOHN@CARTER.COM"
+      ],
+      "phones": [
+        "456789"
+      ]
+    },
+    "otherServices": [
+      {
+        "airlineCode": "EY",
+        "serviceMessage": "PAX TRAVELING IS A HOLLYWOOD STAR"
+      }
+    ],
+    "creationDetails": {
+      "primeHostId": "1S",
+      "userHomePcc": "2D7K",
+      "userWorkPcc": "2D7K",
+      "creationDate": "2024-01-12",
+      "creationTime": "07:42",
+      "creationUserSine": "AWT"
+    },
+    "specialServices": [
+      {
+        "code": "ADMD",
+        "message": "TO EY BY12JAN2246 OTHERWISE WILL BE CANCELLED",
+        "statusCode": "KK",
+        "statusName": "Confirmed",
+        "travelerIndices": [
+          1
+        ]
+      },
+      {
+        "code": "ADTK",
+        "message": "TO EY BY 13JAN 1642 DMM TIME ZONE OTHERWISE WILL BE XLD"
+      },
+      {
+        "code": "OTHS",
+        "message": "194659902684 - TIME LIMIT APPLIED FOR TICKETING"
+      },
+      {
+        "code": "OTHS",
+        "message": "MISSING SSR CTCM MOBILE OR SSR CTCE EMAIL OR SSR CTCR NON-CONSENT FOR EY"
+      },
+      {
+        "code": "VGML",
+        "name": "Vegetarian vegan meal",
+        "flights": [
+          {
+            "itemId": "19"
+          },
+          {
+            "itemId": "20"
+          }
+        ],
+        "statusCode": "KK",
+        "statusName": "Confirmed",
+        "travelerIndices": [
+          1
+        ]
+      }
+    ],
+    "bookingSignature": "5377240da216a923607925d3ef6dcbab0d2a3c4e4bd375943b705e347dd589d9640183749c1d9e71a55cf6573a4ff08ce4d2615576a97dab29571f5b5b841bc2",
+    "agencyCustomerNumber": "1234567"
+  }
