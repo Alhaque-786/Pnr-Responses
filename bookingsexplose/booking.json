@@ -1,0 +1,132 @@
+{
+    "req_id": "ewfwefew",
+    "pnr": [
+      {
+        "ref_no": "JSHYDH",
+        "status": "ticketed",
+        "data": [
+          {
+            "flight": {
+              "search_id": "unfqplfg-sbvcteirppeee-effef-fwf",
+              "itinerary": [
+                {
+                  "arrival": "BOM",
+                  "departure": "DXB",
+                  "segment": [
+                    {
+                      "arrival": "BOM",
+                      "departure": "DEL",
+                      "departure_time": "12:30"
+                    },
+                    {
+                      "arrival": "BOM",
+                      "departure": "GOA",
+                      "departure_time": "14:00"
+                    }
+                  ]
+                },
+                {
+                  "arrival": "NYC",
+                  "departure": "LAX",
+                  "segment": [
+                    {
+                      "arrival": "NYC",
+                      "departure": "SFO",
+                      "departure_time": "16:00"
+                    },
+                    {
+                      "arrival": "SFO",
+                      "departure": "NYC",
+                      "departure_time": "18:30"
+                    }
+                  ]
+                }
+              ]
+            },
+            "tickets": [
+              {
+                "ticket_no": "73399292",
+                "ticket_cl": "OKSHB",
+                "passenger": {
+                  "name": "Akam",
+                  "id": "1"
+                }
+              },
+              {
+                "ticket_no": "83499393",
+                "ticket_cl": "ECON",
+                "passenger": {
+                  "name": "Mira",
+                  "id": "2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "ref_no": "ZXYABC",
+        "status": "confirmed",
+        "data": [
+          {
+            "flight": {
+              "search_id": "bcdefg-hijklmn-opqrst-uvwxy",
+              "itinerary": [
+                {
+                  "arrival": "LAX",
+                  "departure": "CHI",
+                  "segment": [
+                    {
+                      "arrival": "LAX",
+                      "departure": "DEN",
+                      "departure_time": "10:00"
+                    },
+                    {
+                      "arrival": "DEN",
+                      "departure": "LAX",
+                      "departure_time": "12:00"
+                    }
+                  ]
+                },
+                {
+                  "arrival": "SEA",
+                  "departure": "PHX",
+                  "segment": [
+                    {
+                      "arrival": "SEA",
+                      "departure": "LAS",
+                      "departure_time": "14:30"
+                    },
+                    {
+                      "arrival": "LAS",
+                      "departure": "SEA",
+                      "departure_time": "17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            "tickets": [
+              {
+                "ticket_no": "93599494",
+                "ticket_cl": "FIRST",
+                "passenger": {
+                  "name": "Jonas",
+                  "id": "3"
+                }
+              },
+              {
+                "ticket_no": "103599595",
+                "ticket_cl": "BUSINESS",
+                "passenger": {
+                  "name": "Elina",
+                  "id": "4"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
